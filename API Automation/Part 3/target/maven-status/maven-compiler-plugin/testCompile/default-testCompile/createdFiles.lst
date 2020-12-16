@@ -1,0 +1,12 @@
+resources\Responses.class
+in\novopay\platform\apis\test\getCorporateList\StepDefinitionGetCorproateList.class
+in\novopay\platform\apis\test\login\login.class
+in\novopay\platform\apis\test\getCorporateList\Hooks.class
+cucumber\Options\TestRunner_getCorporateList.class
+in\novopay\platform\apis\test\getCorporateDetails\GetCorproateDetails.class
+resources\Payload.class
+resources\Utils.class
+resources\ExtractDataFromExcel.class
+stepdefinition\StepdefinitionLogin.class
+in\novopay\platform\apis\test\getCorporateList\GetCorproateList.class
+cucumber\Options\TestRunner.class
