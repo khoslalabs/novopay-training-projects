@@ -1,2 +1,2 @@
 # Novopay Tech Training - Code
-Projects for Hands-on trainings
+Project code for Hands-on trainings
