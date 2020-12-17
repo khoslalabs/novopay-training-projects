@@ -1,0 +1,12 @@
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/beans/SpringBean3.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.beans.SpringBean3
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/beans/SpringBean2.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.beans.SpringBean2
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/beans/SpringBean1.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.beans.SpringBean1
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/beans/ConfigurationComponentScan.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.beans.ConfigurationComponentScan
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/AnnotationConfigWebApplicationInitializer.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.AnnotationConfigWebApplicationInitializer
+com/spring/professional/exam/tutorial/module01/question06/web/servlet3/xml/beans/SpringController.java
+ com.spring.professional.exam.tutorial.module01.question06.web.servlet3.xml.beans.SpringController
