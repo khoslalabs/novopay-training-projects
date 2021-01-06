@@ -1,0 +1,10 @@
+com/spring/professional/exam/tutorial/module03/question02/standalone/service/EmployeeReportService.java
+ com.spring.professional.exam.tutorial.module03.question02.standalone.service.EmployeeReportService
+com/spring/professional/exam/tutorial/module03/question02/standalone/Runner.java
+ com.spring.professional.exam.tutorial.module03.question02.standalone.Runner
+com/spring/professional/exam/tutorial/module03/question02/standalone/configuration/DataSourceTestDataConfiguration.java
+ com.spring.professional.exam.tutorial.module03.question02.standalone.configuration.DataSourceTestDataConfiguration
+com/spring/professional/exam/tutorial/module03/question02/standalone/dao/EmployeeDao.java
+ com.spring.professional.exam.tutorial.module03.question02.standalone.dao.EmployeeDao
+com/spring/professional/exam/tutorial/module03/question02/standalone/configuration/DataSourceConfiguration.java
+ com.spring.professional.exam.tutorial.module03.question02.standalone.configuration.DataSourceConfiguration
