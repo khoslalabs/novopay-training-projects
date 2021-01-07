@@ -1,0 +1,5 @@
+in\novopay\platform\apis\getCorporateList\resources.class
+in\novopay\platform\apis\getCorporateDetails\Request.class
+in\novopay\platform\apis\getCorporateDetails\GetCorporateDetailsPOJO.class
+in\novopay\platform\apis\login\LoginRequest.class
+in\novopay\platform\apis\Headers\Headers.class
