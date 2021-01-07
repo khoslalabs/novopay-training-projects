@@ -1,2 +1,0 @@
-com/spring/professional/exam/tutorial/module03/question04/callback/custom/ds/Pair.java
- com.spring.professional.exam.tutorial.module03.question04.callback.custom.ds.Pair
