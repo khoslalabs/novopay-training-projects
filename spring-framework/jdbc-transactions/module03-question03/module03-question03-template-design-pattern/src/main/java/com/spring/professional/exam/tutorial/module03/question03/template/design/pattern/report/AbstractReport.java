@@ -5,11 +5,9 @@ import java.nio.file.Path;
 abstract class AbstractReport {
     public void generateReport(Path file, String text) {
         openFile(file);
-
         appendHeader();
         appendText(text);
         appendFooter();
-
         closeFile();
     }
 
