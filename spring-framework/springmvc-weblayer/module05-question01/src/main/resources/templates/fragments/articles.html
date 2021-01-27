@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div th:fragment="articles">
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Articles</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4" th:if="${articles.isEmpty()}">
+            <div class="alert alert-warning" role="alert">
+                No articles defined yet.
+            </div>
+        </div>
+
+        <div class="col-md-4" th:each="article : ${articles}">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title" th:text="${article.title}"></h5>
+                    <p class="card-text" th:text="${article.body}"></p>
+
+                    <form action="#" th:action="@{/delete-article}" method="post">
+                        <input type="hidden" name="id" th:value="${article.id}"/>
+                        <input type="submit" class="btn btn-danger" value="Delete"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
