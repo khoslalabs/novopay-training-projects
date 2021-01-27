@@ -13,6 +13,6 @@ public class TxtReport extends AbstractReport {
 
     @Override
     void appendFooter() {
-        System.out.println("Appending Txt Text");
+        System.out.println("Appending Txt Footer");
     }
 }

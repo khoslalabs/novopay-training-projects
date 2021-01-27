@@ -13,6 +13,6 @@ public class PdfReport extends AbstractReport {
 
     @Override
     void appendFooter() {
-        System.out.println("Appending Pdf Text");
+        System.out.println("Appending Pdf Footer");
     }
 }

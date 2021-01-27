@@ -1,0 +1,16 @@
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/configuration/EmployeesDbConfiguration.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.configuration.EmployeesDbConfiguration
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/db/employees/dao/EmployeeDao.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.db.employees.dao.EmployeeDao
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/db/products/dao/ProductDao.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.db.products.dao.ProductDao
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/Runner.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.Runner
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/configuration/ProductsDbConfiguration.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.configuration.ProductsDbConfiguration
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/service/WarehouseService.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.service.WarehouseService
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/db/products/ds/Product.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.db.products.ds.Product
+com/spring/professional/exam/tutorial/module03/question23/jpa/tx/db/employees/ds/Employee.java
+ com.spring.professional.exam.tutorial.module03.question23.jpa.tx.db.employees.ds.Employee

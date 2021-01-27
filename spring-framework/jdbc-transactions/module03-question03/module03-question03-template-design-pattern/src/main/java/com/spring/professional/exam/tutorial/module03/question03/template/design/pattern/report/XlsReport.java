@@ -13,6 +13,6 @@ public class XlsReport extends AbstractReport {
 
     @Override
     void appendFooter() {
-        System.out.println("Appending Xls Text");
+        System.out.println("Appending Xls Footer");
     }
 }
