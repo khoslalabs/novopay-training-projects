@@ -1,8 +1,0 @@
-com/spring/professional/exam/tutorial/module01/question06/boot/cli/beans/SpringBean1.java
- com.spring.professional.exam.tutorial.module01.question06.boot.cli.beans.SpringBean1
-com/spring/professional/exam/tutorial/module01/question06/boot/cli/beans/SpringBean3.java
- com.spring.professional.exam.tutorial.module01.question06.boot.cli.beans.SpringBean3
-com/spring/professional/exam/tutorial/module01/question06/boot/cli/SpringBootConsoleApplication.java
- com.spring.professional.exam.tutorial.module01.question06.boot.cli.SpringBootConsoleApplication
-com/spring/professional/exam/tutorial/module01/question06/boot/cli/beans/SpringBean2.java
- com.spring.professional.exam.tutorial.module01.question06.boot.cli.beans.SpringBean2
