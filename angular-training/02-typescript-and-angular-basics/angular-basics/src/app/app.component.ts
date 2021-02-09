@@ -10,6 +10,4 @@ import { Component } from '@angular/core';
   //   }
   // `]
 })
-export class AppComponent {
-  title = 'angular-basics';
-}
+export class AppComponent {}
