@@ -1,0 +1,12 @@
+server:
+  url: https://local.service.com/
+---
+spring:
+  profiles: dev
+server:
+  url: https://dev.service.com/
+---
+spring:
+  profiles: prod
+server:
+  url: https://prod.service.com/

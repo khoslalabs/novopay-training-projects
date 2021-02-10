@@ -59,6 +59,22 @@ public class CustomersController {
             throw new ResponseStatusException(BAD_REQUEST, String.format("Request contains incorrect data = [%s]", getErrors(bindingResult)));
     }
 
+/*
+    @PatchMapping("/customers/{id}")
+    public ResponseEntity<Customer> patchUpdate(@RequestBody @Valid Customer customer, @PathVariable int id, BindingResult bindingResult) {
+        if (!bindingResult.hasErrors()) {
+            if (customersDao.existsById(id)) {
+                customer.setId(id);
+                Customer savedCustomer = customersDao.save(customer);
+
+                return ResponseEntity
+                        .ok(savedCustomer);
+            } else
+                return ResponseEntity.notFound().build();
+        } else
+            throw new ResponseStatusException(BAD_REQUEST, String.format("Request contains incorrect data = [%s]", getErrors(bindingResult)));
+    }*/
+
     @DeleteMapping("/customers/{id}")
     public ResponseEntity delete(@PathVariable Integer id) {
         if (customersDao.existsById(id)) {

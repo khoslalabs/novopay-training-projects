@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>spring-professional-exam-tutorial-module04</groupId>
+    <artifactId>spring-professional-exam-tutorial-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <spring.framework.version>5.1.6.RELEASE</spring.framework.version>
+        <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
+
+        <java.source.target.version>11</java.source.target.version>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>${java.source.target.version}</maven.compiler.source>
+        <maven.compiler.target>${java.source.target.version}</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>module04-question01</module>
+        <module>module04-question02</module>
+        <module>module04-question03</module>
+        <module>module04-question04</module>
+        <module>module04-question05</module>
+        <module>module04-question06</module>
+        <module>module04-question07</module>
+        <module>module04-question08</module>
+        <module>module04-question09</module>
+        <module>module04-question10</module>
+        <module>module04-question11</module>
+        <module>module04-question12</module>
+        <module>module04-question13</module>
+        <module>module04-question14</module>
+        <module>module04-question15</module>
+        <module>module04-question16</module>
+        <module>module04-question17</module>
+        <module>module04-question18</module>
+        <module>module04-question19</module>
+        <module>module04-question20</module>
+        <module>module04-question21</module>
+        <module>module04-question22</module>
+        <module>module04-question23</module>
+        <module>module04-question24</module>
+        <module>module04-question25</module>
+        <module>module04-question26</module>
+        <module>module04-question27</module>
+        <module>module04-question28</module>
+        <module>module04-question29</module>
+        <module>module04-question30</module>
+        <module>module04-question31</module>
+        <module>module04-question32</module>
+        <module>module04-question33</module>
+        <module>module04-question34</module>
+        <module>module04-question35</module>
+        <module>module04-question36</module>
+        <module>module04-question37</module>
+        <module>module04-question38</module>
+        <module>module04-question39</module>
+        <module>module04-question40</module>
+        <module>module04-question41</module>
+        <module>module04-question42</module>
+        <module>module04-question43</module>
+        <module>module04-question44</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>${spring.framework.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

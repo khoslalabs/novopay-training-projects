@@ -1,0 +1,17 @@
+app:
+  name: spring-boot-app
+  description: Example Spring Boot Application
+
+  servers:
+    - server1
+    - server2
+    - server3
+
+  environments:
+    dev:
+      name: Development Environment
+      url: https://dev.example.com
+
+    prod:
+      name: Prod Environment
+      url: https://prod.example.com
