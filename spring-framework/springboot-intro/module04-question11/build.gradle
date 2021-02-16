@@ -6,6 +6,11 @@ plugins {
     id 'spring-professional-exam-tutorial-module04.java-conventions'
 }
 
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
+}
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter:2.1.4.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc:2.1.4.RELEASE'
