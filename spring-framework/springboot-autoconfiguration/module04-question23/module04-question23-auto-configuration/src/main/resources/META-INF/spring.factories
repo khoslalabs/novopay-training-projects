@@ -1,0 +1,7 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.spring.professional.exam.tutorial.module04.question23.auto.configuration.db.HsqlDbAutoConfiguration,\
+com.spring.professional.exam.tutorial.module04.question23.auto.configuration.java.java8.Java8AutoConfiguration,\
+com.spring.professional.exam.tutorial.module04.question23.auto.configuration.java.java9.Java9AutoConfiguration,\
+com.spring.professional.exam.tutorial.module04.question23.auto.configuration.filestore.local.LocalFileStoreAutoConfiguration,\
+com.spring.professional.exam.tutorial.module04.question23.auto.configuration.filestore.network.NetworkFileStoreAutoConfiguration

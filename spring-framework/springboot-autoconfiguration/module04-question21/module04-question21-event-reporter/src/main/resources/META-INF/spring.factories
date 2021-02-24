@@ -1,0 +1,3 @@
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.spring.professional.exam.tutorial.module04.question21.listener.SpringApplicationListener
