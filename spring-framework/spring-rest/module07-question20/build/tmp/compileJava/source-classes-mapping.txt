@@ -1,0 +1,16 @@
+com/spring/professional/exam/tutorial/module07/question20/ds/Customers.java
+ com.spring.professional.exam.tutorial.module07.question20.ds.Customers
+com/spring/professional/exam/tutorial/module07/question20/jpa/AssignedIdentityGenerator.java
+ com.spring.professional.exam.tutorial.module07.question20.jpa.AssignedIdentityGenerator
+com/spring/professional/exam/tutorial/module07/question20/jpa/Identifiable.java
+ com.spring.professional.exam.tutorial.module07.question20.jpa.Identifiable
+com/spring/professional/exam/tutorial/module07/question20/Application.java
+ com.spring.professional.exam.tutorial.module07.question20.Application
+com/spring/professional/exam/tutorial/module07/question20/controller/ApiController.java
+ com.spring.professional.exam.tutorial.module07.question20.controller.ApiController
+com/spring/professional/exam/tutorial/module07/question20/ds/Customer.java
+ com.spring.professional.exam.tutorial.module07.question20.ds.Customer
+com/spring/professional/exam/tutorial/module07/question20/dao/CustomersDao.java
+ com.spring.professional.exam.tutorial.module07.question20.dao.CustomersDao
+com/spring/professional/exam/tutorial/module07/question20/ds/CustomerCriteria.java
+ com.spring.professional.exam.tutorial.module07.question20.ds.CustomerCriteria

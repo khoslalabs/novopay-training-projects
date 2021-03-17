@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Gradle/gradle-6.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/module04-question01" />
+            <option value="$PROJECT_DIR$/module04-question02" />
+            <option value="$PROJECT_DIR$/module04-question03" />
+            <option value="$PROJECT_DIR$/module04-question03/module04-question03-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question03/module04-question03-without-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question04" />
+            <option value="$PROJECT_DIR$/module04-question04/module04-question04-application" />
+            <option value="$PROJECT_DIR$/module04-question04/module04-question04-my-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question05" />
+            <option value="$PROJECT_DIR$/module04-question06" />
+            <option value="$PROJECT_DIR$/module04-question06/module04-question06-java-properties" />
+            <option value="$PROJECT_DIR$/module04-question06/module04-question06-yaml-properties" />
+            <option value="$PROJECT_DIR$/module04-question07" />
+            <option value="$PROJECT_DIR$/module04-question07/module04-question07-jul" />
+            <option value="$PROJECT_DIR$/module04-question07/module04-question07-log4j2" />
+            <option value="$PROJECT_DIR$/module04-question07/module04-question07-logback" />
+            <option value="$PROJECT_DIR$/module04-question08" />
+            <option value="$PROJECT_DIR$/module04-question09" />
+            <option value="$PROJECT_DIR$/module04-question10" />
+            <option value="$PROJECT_DIR$/module04-question11" />
+            <option value="$PROJECT_DIR$/module04-question12" />
+            <option value="$PROJECT_DIR$/module04-question13" />
+            <option value="$PROJECT_DIR$/module04-question13/module04-question13-fat-jar" />
+            <option value="$PROJECT_DIR$/module04-question13/module04-question13-regular-jar" />
+            <option value="$PROJECT_DIR$/module04-question14" />
+            <option value="$PROJECT_DIR$/module04-question14/module04-question14-embedded" />
+            <option value="$PROJECT_DIR$/module04-question14/module04-question14-war" />
+            <option value="$PROJECT_DIR$/module04-question15" />
+            <option value="$PROJECT_DIR$/module04-question15/module04-question15-jetty" />
+            <option value="$PROJECT_DIR$/module04-question15/module04-question15-tomcat" />
+            <option value="$PROJECT_DIR$/module04-question15/module04-question15-undertow" />
+            <option value="$PROJECT_DIR$/module04-question16" />
+            <option value="$PROJECT_DIR$/module04-question16/module04-question16-application" />
+            <option value="$PROJECT_DIR$/module04-question16/module04-question16-embedded-db-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question17" />
+            <option value="$PROJECT_DIR$/module04-question17/module04-question17-application" />
+            <option value="$PROJECT_DIR$/module04-question17/module04-question17-embedded-db-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question18" />
+            <option value="$PROJECT_DIR$/module04-question19" />
+            <option value="$PROJECT_DIR$/module04-question20" />
+            <option value="$PROJECT_DIR$/module04-question21" />
+            <option value="$PROJECT_DIR$/module04-question21/module04-question21-application" />
+            <option value="$PROJECT_DIR$/module04-question21/module04-question21-embedded-db-autoconfiguration" />
+            <option value="$PROJECT_DIR$/module04-question21/module04-question21-event-reporter" />
+            <option value="$PROJECT_DIR$/module04-question22" />
+            <option value="$PROJECT_DIR$/module04-question22/module04-question22-application" />
+            <option value="$PROJECT_DIR$/module04-question22/module04-question22-mysql-custom-auto-configuration" />
+            <option value="$PROJECT_DIR$/module04-question23" />
+            <option value="$PROJECT_DIR$/module04-question23/module04-question23-application" />
+            <option value="$PROJECT_DIR$/module04-question23/module04-question23-auto-configuration" />
+            <option value="$PROJECT_DIR$/module04-question24" />
+            <option value="$PROJECT_DIR$/module04-question25" />
+            <option value="$PROJECT_DIR$/module04-question26" />
+            <option value="$PROJECT_DIR$/module04-question27" />
+            <option value="$PROJECT_DIR$/module04-question28" />
+            <option value="$PROJECT_DIR$/module04-question29" />
+            <option value="$PROJECT_DIR$/module04-question30" />
+            <option value="$PROJECT_DIR$/module04-question31" />
+            <option value="$PROJECT_DIR$/module04-question32" />
+            <option value="$PROJECT_DIR$/module04-question33" />
+            <option value="$PROJECT_DIR$/module04-question34" />
+            <option value="$PROJECT_DIR$/module04-question35" />
+            <option value="$PROJECT_DIR$/module04-question36" />
+            <option value="$PROJECT_DIR$/module04-question37" />
+            <option value="$PROJECT_DIR$/module04-question38" />
+            <option value="$PROJECT_DIR$/module04-question39" />
+            <option value="$PROJECT_DIR$/module04-question40" />
+            <option value="$PROJECT_DIR$/module04-question41" />
+            <option value="$PROJECT_DIR$/module04-question42" />
+            <option value="$PROJECT_DIR$/module04-question43" />
+            <option value="$PROJECT_DIR$/module04-question44" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
