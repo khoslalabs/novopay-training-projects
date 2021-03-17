@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: web-ui-service
-server:
-  port: 0
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8083/eureka

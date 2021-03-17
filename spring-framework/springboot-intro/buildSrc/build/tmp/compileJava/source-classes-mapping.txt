@@ -1,2 +1,0 @@
-SpringProfessionalExamTutorialModule04JavaConventionsPlugin.java
- SpringProfessionalExamTutorialModule04JavaConventionsPlugin

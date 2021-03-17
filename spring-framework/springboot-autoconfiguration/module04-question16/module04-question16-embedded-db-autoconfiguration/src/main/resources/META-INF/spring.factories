@@ -1,3 +1,0 @@
-# Auto Configure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.spring.professional.exam.tutorial.module04.question16.autoconfiguration.DataSourceAutoConfiguration

@@ -1,8 +1,0 @@
-
-apply plugin: 'war'
-
-description = ''
-dependencies {
-    compile group: 'org.reflections', name: 'reflections', version:'0.9.11'
-    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version:'3.1.0'
-}

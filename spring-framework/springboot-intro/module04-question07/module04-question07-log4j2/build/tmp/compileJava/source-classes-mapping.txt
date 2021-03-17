@@ -1,2 +1,0 @@
-com/spring/professional/exam/tutorial/module04/question07/log4j2/SpringBootConsoleApplication.java
- com.spring.professional.exam.tutorial.module04.question07.log4j2.SpringBootConsoleApplication
