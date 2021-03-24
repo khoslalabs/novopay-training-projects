@@ -1,0 +1,60 @@
+<!doctype html>
+<html th:replace="~{layouts/main :: layout(~{::main})}" xmlns:th="http://www.thymeleaf.org"
+>
+<body>
+
+<main role="main">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-3">Account Information</h3>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Security Context Holder Strategy</h5>
+                    <div class="card-text">
+                        <h5 th:text="${securityContextHolderStrategy}"></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Main Thread Account Information</h5>
+                    <div class="card-text">
+                        <h5>Security Context HashCode: <span th:text="${mainHashCode}"></span></h5>
+                        <h5>Authentication Name: <span th:text="${mainName}"></span></h5>
+                        <h5>Username: <span th:text="${mainUsername}"></span></h5>
+
+                        <h5>Authorities:</h5>
+                        <ul class="list-group" th:each="authority : ${mainAuthorities}">
+                            <li class="list-group-item" th:text="${authority}"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Child Thread Account Information</h5>
+                    <div class="card-text">
+                        <h5>Security Context HashCode: <span th:text="${childHashCode}"></span></h5>
+                        <h5>Authentication Name: <span th:text="${childName}"></span></h5>
+                        <h5>Username: <span th:text="${childUsername}"></span></h5>
+
+                        <h5>Authorities:</h5>
+                        <ul class="list-group" th:each="authority : ${childAuthorities}">
+                            <li class="list-group-item" th:text="${authority}"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+
+</body>
+</html>
