@@ -18,6 +18,9 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Integer id;
+
+
+
     @NotBlank(message = "First name cannot be empty")
     @Pattern(regexp = "[A-Za-z-']*", message = "First name contains illegal characters")
     private String firstName;
@@ -36,5 +39,53 @@ public class Employee {
 
     @SuppressWarnings("unused")
     public Employee() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getCubicleNo() {
+        return cubicleNo;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setCubicleNo(String cubicleNo) {
+        this.cubicleNo = cubicleNo;
     }
 }

@@ -36,4 +36,44 @@ public class Customer {
     @SuppressWarnings("unused")
     public Customer() {
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
