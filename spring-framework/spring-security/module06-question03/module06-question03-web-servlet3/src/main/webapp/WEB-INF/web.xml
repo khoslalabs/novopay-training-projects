@@ -1,0 +1,5 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <error-page>
+        <location>/error</location>
+    </error-page>
+</web-app>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<form th:fragment="employeeView" action="#" th:object="${employee}">
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label for="firstName">First name</label>
+            <input readonly type="text" class="form-control" id="firstName" th:field="*{firstName}">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="lastName">Last name</label>
+            <input readonly type="text" class="form-control" id="lastName" th:field="*{lastName}">
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="address">Address</label>
+        <input readonly type="text" class="form-control" id="address" th:field="*{address}">
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label for="phoneNumber">Phone Number</label>
+            <input readonly type="text" class="form-control" id="phoneNumber" th:field="*{phoneNumber}">
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="cubicleNo">Cubicle No</label>
+            <input readonly type="text" class="form-control" id="cubicleNo" th:field="*{cubicleNo}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <a href="#" th:href="@{/employees}">Back to Employees List</a>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
