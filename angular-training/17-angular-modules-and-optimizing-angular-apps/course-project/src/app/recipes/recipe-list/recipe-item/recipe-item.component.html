@@ -1,0 +1,15 @@
+<div class="list-group" style="height: min-content; min-width: 365px;">
+  <a 
+    [routerLink]="[index]"
+    routerLinkActive="active"
+    style="cursor: pointer; height: 95px;" 
+    class="list-group-item list-group-item-action">
+    <div class="float-left">
+      <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+      <p class="list-group-item-text">{{ recipe.description }}</p>
+    </div>
+    <span class="float-right">
+      <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-fluid" style="max-height: 70px;">
+    </span>
+  </a>
+</div>
